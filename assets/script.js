@@ -247,16 +247,16 @@ function updateEightPm() {
     };
 }
 
-$(window).on('unload', function(){
-    saveEvent();
-    loadEvent();
+// $(window).on('unload', function(){
+//     saveEvent();
+//     loadEvent();
 
-function saveEventNine() {
-    var userInput = text9am.val();
-    localStorage.text9am = $('#text9am').val();
-}
+// function saveEventNine() {
+//     var userInput = text9am.val();
+//     localStorage.text9am = $('#text9am').val();
+// }
 
-function loadEventNine() {
-    $('#text9am').val(localStorage.text9am);
-}
+// function loadEventNine() {
+//     $('#text9am').val(localStorage.text9am);
+// }
 
