@@ -51,15 +51,6 @@ function updateNineAm() {
     var currentTime = moment();
     var beforeTime = moment('09:00:00', format);
     var afterTime = moment('09:59:59', format);
-    // if (currentTime.isBetween(beforeTime, afterTime)) {
-    //     $(time9am).addClass('present');
-    // }
-    // if (currentTime.isBefore(beforeTime)) {
-    //     $(time9am).addClass('future');
-    // }
-    // if (currentTime.isAfter(afterTime)) {
-    //     $(time9am).addClass('past');
-    // };
     addTimeColor(time9am, beforeTime, afterTime);
 }
 
@@ -69,15 +60,6 @@ function updateTenAm() {
     var currentTime = moment();
     var beforeTime = moment('10:00:00', format);
     var afterTime = moment('10:59:59', format);
-    // if (currentTime.isBetween(beforeTime, afterTime)) {
-    //     $(time10am).addClass('present');
-    // }
-    // if (currentTime.isBefore(beforeTime)) {
-    //     $(time10am).addClass('future');
-    // }
-    // if (currentTime.isAfter(afterTime)) {
-    //     $(time10am).addClass('past');
-    // };
     addTimeColor(time10am, beforeTime, afterTime);
 }
 
@@ -87,15 +69,6 @@ function updateElevenAm() {
     var currentTime = moment();
     var beforeTime = moment('11:00:00', format);
     var afterTime = moment('11:59:59', format);
-    // if (currentTime.isBetween(beforeTime, afterTime)) {
-    //     $(time11am).addClass('present');
-    // }
-    // if (currentTime.isBefore(beforeTime)) {
-    //     $(time11am).addClass('future');
-    // }
-    // if (currentTime.isAfter(afterTime)) {
-    //     $(time11am).addClass('past');
-    // };
     addTimeColor(time11am, beforeTime, afterTime);
 }
 
@@ -105,15 +78,6 @@ function updateTwelvePm() {
     var currentTime = moment();
     var beforeTime = moment('12:00:00', format);
     var afterTime = moment('12:59:59', format);
-    // if (currentTime.isBetween(beforeTime, afterTime)) {
-    //     $(time12pm).addClass('present');
-    // }
-    // if (currentTime.isBefore(beforeTime)) {
-    //     $(time12pm).addClass('future');
-    // }
-    // if (currentTime.isAfter(afterTime)) {
-    //     $(time12pm).addClass('past');
-    // };
     addTimeColor(time12pm, beforeTime, afterTime);
 }
 
@@ -123,15 +87,6 @@ function updateOnePm() {
     var currentTime = moment();
     var beforeTime = moment('13:00:00', format);
     var afterTime = moment('13:59:59', format);
-    // if (currentTime.isBetween(beforeTime, afterTime)) {
-    //     $(time1pm).addClass('present');
-    // }
-    // if (currentTime.isBefore(beforeTime)) {
-    //     $(time1pm).addClass('future');
-    // }
-    // if (currentTime.isAfter(afterTime)) {
-    //     $(time1pm).addClass('past');
-    // };
     addTimeColor(time1pm, beforeTime, afterTime);
 }
 
@@ -141,15 +96,6 @@ function updateTwoPm() {
     var currentTime = moment();
     var beforeTime = moment('14:00:00', format);
     var afterTime = moment('14:59:59', format);
-    // if (currentTime.isBetween(beforeTime, afterTime)) {
-    //     $(time2pm).addClass('present');
-    // }
-    // if (currentTime.isBefore(beforeTime)) {
-    //     $(time2pm).addClass('future');
-    // }
-    // if (currentTime.isAfter(afterTime)) {
-    //     $(time2pm).addClass('past');
-    // };
     addTimeColor(time2pm, beforeTime, afterTime);
 }
 
@@ -159,15 +105,6 @@ function updateThreePm() {
     var currentTime = moment();
     var beforeTime = moment('15:00:00', format);
     var afterTime = moment('15:59:59', format);
-    // if (currentTime.isBetween(beforeTime, afterTime)) {
-    //     $(time3pm).addClass('present');
-    // }
-    // if (currentTime.isBefore(beforeTime)) {
-    //     $(time3pm).addClass('future');
-    // }
-    // if (currentTime.isAfter(afterTime)) {
-    //     $(time3pm).addClass('past');
-    // };
     addTimeColor(time3pm, beforeTime, afterTime);
 }
 
@@ -177,15 +114,6 @@ function updateFourPm() {
     var currentTime = moment();
     var beforeTime = moment('16:00:00', format);
     var afterTime = moment('16:59:59', format);
-    // if (currentTime.isBetween(beforeTime, afterTime)) {
-    //     $(time4pm).addClass('present');
-    // }
-    // if (currentTime.isBefore(beforeTime)) {
-    //     $(time4pm).addClass('future');
-    // }
-    // if (currentTime.isAfter(afterTime)) {
-    //     $(time4pm).addClass('past');
-    // };
     addTimeColor(time4pm, beforeTime, afterTime);
 }
 
@@ -195,15 +123,6 @@ function updateFivePm() {
     var currentTime = moment();
     var beforeTime = moment('17:00:00', format);
     var afterTime = moment('17:59:59', format);
-    // if (currentTime.isBetween(beforeTime, afterTime)) {
-    //     $(time5pm).addClass('present');
-    // }
-    // if (currentTime.isBefore(beforeTime)) {
-    //     $(time5pm).addClass('future');
-    // }
-    // if (currentTime.isAfter(afterTime)) {
-    //     $(time5pm).addClass('past');
-    // };
     addTimeColor(time5pm, beforeTime, afterTime);
 }
 
@@ -213,15 +132,6 @@ function updateSixPm() {
     var currentTime = moment();
     var beforeTime = moment('18:00:00', format);
     var afterTime = moment('18:59:59', format);
-    // if (currentTime.isBetween(beforeTime, afterTime)) {
-    //     $(time6pm).addClass('present');
-    // }
-    // if (currentTime.isBefore(beforeTime)) {
-    //     $(time6pm).addClass('future');
-    // }
-    // if (currentTime.isAfter(afterTime)) {
-    //     $(time6pm).addClass('past');
-    // };
     addTimeColor(time6pm, beforeTime, afterTime);
 }
 
@@ -231,18 +141,6 @@ function updateSevenPm() {
     var currentTime = moment();
     var beforeTime = moment('19:00:00', format);
     var afterTime = moment('19:59:59', format);
-    // if (currentTime.isBetween(beforeTime, afterTime)) {
-    //     $(time7pm).addClass('present');
-    //     $(time7pm).removeClass('future');
-    // }
-    // if (currentTime.isBefore(beforeTime)) {
-    //     $(time7pm).addClass('future');
-    //     $(time7pm).removeClass('past');
-    // }
-    // if (currentTime.isAfter(afterTime)) {
-    //     $(time7pm).addClass('past');
-    //     $(time7pm).removeClass('present');
-    // };
     addTimeColor(time7pm, beforeTime, afterTime);
 }
 
@@ -252,15 +150,6 @@ function updateEightPm() {
     var currentTime = moment();
     var beforeTime = moment('20:00:00', format);
     var afterTime = moment('20:59:59', format);
-    // if (currentTime.isBetween(beforeTime, afterTime)) {
-    //     $(time8pm).addClass('present');
-    // }
-    // if (currentTime.isBefore(beforeTime)) {
-    //     $(time8pm).addClass('future');
-    // }
-    // if (currentTime.isAfter(afterTime)) {
-    //     $(time8pm).addClass('past');
-    // };
     addTimeColor(time8pm, beforeTime, afterTime);
 }
 
